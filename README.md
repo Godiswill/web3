@@ -3,7 +3,7 @@
 
 [区块链图谱](https://roadmap.sh/blockchain)
 
-[登链社区资源集合]([https://learnblockchain.cn/manuals?page=1)
+[登链社区资源集合](https://learnblockchain.cn/manuals?page=1)
 
 ## 以太坊 EVM 架构
 ### 语言学习
