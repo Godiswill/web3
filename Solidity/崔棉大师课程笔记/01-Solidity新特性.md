@@ -12,7 +12,7 @@ Solidity 0.8
 ```
 
 ## 安全数学
-```ts
+```solidity
  // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
@@ -46,7 +46,7 @@ contract SafeMath {
 ```
 
 漏洞分析： 2018 年最高总值达到 280亿美元的 BEC（Beauty Chain）美链，因为溢出漏洞，导致项目市值归零
-```ts
+```solidity
 function batchTransfer(address[] _receivers, uint256 _value) public whenNotPaused returns (bool) { 
     uint cnt = _receivers.length;
     // 漏洞代码：当 cnt == 2，_value == 2**255，amount 溢出变成 0
@@ -63,7 +63,7 @@ function batchTransfer(address[] _receivers, uint256 _value) public whenNotPause
 ```
 
 ## custom error
-```ts
+```solidity
  // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
@@ -95,7 +95,7 @@ contract VendingMachine {
 ```
 
 ## function outside contract
-```ts
+```solidity
 // function outside contract
 // 函数可以提到合约外部，以前只能通过 library 库类实现
 function helper(uint x) pure returns (uint) {
@@ -126,7 +126,7 @@ contract Import {
 
 ## create2
 - 新特性直接 new
-```ts
+```solidity
  // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
@@ -176,7 +176,7 @@ contract Create2 {
 以太坊常规部署合约是用 nonce 值来传入 salt，一般难以预测。现在合约动态部署其他合约可以提前计算出将部署合约的地址。
 
 - 旧版汇编
-```ts
+```solidity
 contract Create2 {
     ...
     function createDAssembly(bytes32 _salt, uint arg) public {
