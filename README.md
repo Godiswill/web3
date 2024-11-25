@@ -34,7 +34,15 @@
 [Forsage合约解读](https://steemit.com/forsage/@chaimyu/forsage)
 
 #### 前端库
-[ethers.js 中文文档](https://learnblockchain.cn/ethers_v5/)
+[ethers.js v5 中文文档](https://learnblockchain.cn/ethers_v5/)
+
+[ethers.js v6 英版文档](https://docs.ethers.org/v6/)
+
+[WTF - Ethers.js 入门](https://www.wtf.academy/docs/ethers-101/)
+
+[WTF - Ethers.js 进阶](https://www.wtf.academy/docs/ethers-102/)
+
+
 
 #### 钱包
 [区块链钱包系列课程](https://thewebthree.xyz/1/course_article)
