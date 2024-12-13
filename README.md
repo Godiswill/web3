@@ -79,12 +79,24 @@
 ### 官方文档
 [Solana Developers](https://solana.com/docs/intro/quick-start)
 
-## 一些产品
+## web3 产品
+### 钱包
+[小狐狸钱包](https://metamask.io/): 以太老牌钱包，只支持 EVM 生态网络，例如 BSC 和二层网络 Arbitrum 等，集成了 ERC 代币交互和 EVM 生态链跨链换币功能，收费较高 0.875%，不太推荐
+
+[OKX钱包](https://www.okx.com/zh-hans/web3):  一个助记词生成多链钱包，例如 BTC、Ethereum、Solana 等，集成了很多 Dex 聚合器，方便兑换同链代币或跨链代币，只能实时选取最优的 Dex
+
 ### 跨链桥 DEx
+
+[Arbitrum](https://bridge.arbitrum.io/?destinationChain=arbitrum-one&sourceChain=ethereum): 以太二层网络，可以吧 ETH 或 ERC20 代币跨链到 Arbitrum，然后在利用 Uniswap、Curve 等兑换代币，可以节省大量交易 gas 费。
+PS. 交易等待较长，超 15 分钟，在乎实效可以用第三方跨链桥 Hop、Synapse、Orbiter 等
+
+[Uniswap](https://app.uniswap.org/): EVM 生态交易所，任意 ERC20 代币交换，手续费 0.25%，比小狐狸便宜
+
+[Curve](https://curve.fi/#/ethereum/swap): EVM 生态稳定币交易所，只兑换稳定币，例如 USDT，使用 curve  更便宜
 
 [simpleswap](https://simpleswap.io/cn)
 ：发起一笔币币交易，可用任意钱包转账 A 币到池子地址，它会自动把你想要的 B 币种（可以跨链。有的时候币 OKX 的跨链桥便宜）转到你提供的钱包地址里。（执行过几次小笔交易，几分钟内到账）
 
 ### 混币器
 
-[Tornado Cash](https://tornado.ws/)：避免转账被追踪（还未使用过）
+[Tornado Cash](https://tornado.ws/)：避免转账被追踪，Dexx 交易所被盗，[黑客洗 ETH](https://x.com/evilcos/status/1866642201985552464?s=12&t=4Q0oifuc6DNwywQuU8bYuQ)就是用的这个协议
