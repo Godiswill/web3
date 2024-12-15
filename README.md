@@ -85,12 +85,19 @@
 
 [OKX钱包](https://www.okx.com/zh-hans/web3):  一个助记词生成多链钱包，例如 BTC、Ethereum、Solana 等，集成了很多 Dex 聚合器，方便兑换同链代币或跨链代币，只能实时选取最优的 Dex
 
+#### 安全插件
+[pocketuniverse](https://www.pocketuniverse.app/): 谷歌精选插件，用户 10w+，钓鱼网站检查，模拟交易，风险提醒
+
+[walletguard](https://www.walletguard.app/): 钓鱼网站检查，模拟交易提前显示结果，提醒用户避免过度授权
+
+[revoke](https://revoke.cash): 查看钱包所有授权记录，支持快速撤销授权
+
 ### 跨链桥 DEx
 
 [Arbitrum](https://bridge.arbitrum.io/?destinationChain=arbitrum-one&sourceChain=ethereum): 以太二层网络，可以吧 ETH 或 ERC20 代币跨链到 Arbitrum，然后在利用 Uniswap、Curve 等兑换代币，可以节省大量交易 gas 费。
 PS. 交易等待较长，超 15 分钟，在乎实效可以用第三方跨链桥 Hop、Synapse、Orbiter 等
 
-[Uniswap](https://app.uniswap.org/): EVM 生态交易所，任意 ERC20 代币交换，手续费 0.25%，比小狐狸便宜
+[Uniswap](https://app.uniswap.org/swap): EVM 生态交易所，任意 ERC20 代币交换，手续费 0.25%，比小狐狸便宜
 
 [Curve](https://curve.fi/#/ethereum/swap): EVM 生态稳定币交易所，只兑换稳定币，例如 USDT，使用 curve  更便宜
 
@@ -100,3 +107,8 @@ PS. 交易等待较长，超 15 分钟，在乎实效可以用第三方跨链桥
 ### 混币器
 
 [Tornado Cash](https://tornado.ws/)：避免转账被追踪，Dexx 交易所被盗，[黑客洗 ETH](https://x.com/evilcos/status/1866642201985552464?s=12&t=4Q0oifuc6DNwywQuU8bYuQ)就是用的这个协议
+
+### 其他
+[bot 聚合器](https://doc.nftsniper.club/getting-started/module): swap、K线、项目跟单，NTF、空投、地址管理、推特监听等功能，需付费解锁，学习大佬开发的工具
+
+[1inch](https://app.1inch.io/#/1/simple/swap/1:ETH): DEX 集合器，提供最佳交易路径，专业省心，不用自己去比对各个交易所的价格
